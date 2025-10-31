@@ -1,37 +1,156 @@
+# 🎯 AI Mood Companion
 
-AI Mood Companion Project
+**Final Project – Shaqra University AI Bootcamp**  
+**By:** Abdessamad Bourkibate  
+**Organized by:** Shaqra University & Google Developer Student Club (GDSC)
 
-By: Abdessamad Bourkibate
+---
 
-Overview
-AI Mood Companion is an interactive application designed to analyze and track your emotional state over time. Powered by artificial intelligence and natural language processing, it encourages users to share their feelings, provides supportive feedback, and visualizes mood history through charts and statistics.
+## 🧠 Overview
+**AI Mood Companion** is an interactive Python-based application developed as part of the **AI Bootcamp at Shaqra University**, in collaboration with the **Google Developer Student Club (GDSC)**.  
 
-Features
-Sentiment analysis of user text input (positive, negative, etc.)
+The project uses **Artificial Intelligence (AI)** and **Natural Language Processing (NLP)** to analyze and track users’ emotional states through their written reflections.  
+It encourages self-awareness, provides motivational responses, and visualizes emotional trends over time.
 
-Logging all entries in a CSV file for mood tracking
+---
 
-Visual charts for mood history and emotional trends
+## 🚀 Objectives
+- Apply **NLP and AI concepts** learned during the bootcamp.  
+- Build a tool that helps users reflect on their emotions.  
+- Visualize emotional data for insight and personal growth.  
+- Demonstrate practical implementation of AI using **Python**.
 
-Friendly chatbot offering encouragement and motivational advice
+---
 
-Easy deployment and usage on Google Colab
+## ✨ Features
+- 🧩 Real-time **sentiment analysis** (positive / neutral / negative).  
+- 🗂️ Automatic **logging** of user input into a CSV file.  
+- 📊 Visual **charts and trend analysis** for emotional tracking.  
+- 🤖 Friendly **chatbot** offering motivational advice.  
+- 💻 Easy to run on **Google Colab** or locally.  
+- 🧮 Built-in commands for quick stats and data review.
 
-Getting Started
-Upload the zipped project folder to Google Colab.
+---
 
-Install dependencies via requirements.txt or manually.
+## ⚙️ How to Run
 
-Run main.py to start interacting with the AI Companion.
+### 1️⃣ Install Required Libraries
 
-Type your feelings and get instant analysis and feedback.
+!pip install -r requirements.txt
 
-Use built-in commands (stats, exit) for stats and exiting.
+2️⃣ Run the Main Script
 
-Target Audience
-Anyone interested in tracking and understanding their emotional state.
+!python main.py
 
-Students and researchers in AI for mental health.
 
-Author
+3️⃣ Start Interacting
+
+Type your feelings — the AI Companion will analyze your mood and provide feedback instantly.
+
+
+🧭 Example Interaction
+
+> I feel happy today because I achieved my goals.
+Sentiment: Positive 😊
+Response: That’s amazing! Keep that spirit up — consistency creates success! 🌟
+
+> I’m feeling tired and a bit overwhelmed.
+Sentiment: Negative 😔
+Response: Take a deep breath. Rest is part of progress — you’ve got this! 💪
+
+📊 Data Format (CSV)
+
+Example of mood_log.csv file:
+
+timestamp, text, sentiment_label, sentiment_score
+2025-10-31T18:00:00Z,"I feel happy today",positive,0.87
+
+🏗️ Project Structure
+
+
+AI-Mood-Companion/
+│
+├── main.py
+├── requirements.txt
+├── mood_log.csv
+├── config.yaml
+├── utils/
+│   ├── sentiment_analyzer.py
+│   ├── mood_logger.py
+│   └── visualization.py
+└── README.md
+
+
+
+
+
+Educational Context
+
+This project was developed within the AI Bootcamp organized by:
+
+🏫 Shaqra University
+💡 Google Developer Student Club (GDSC)
+
+It applies several core topics covered in the bootcamp:
+
+Natural Language Processing (NLP)
+
+AI model integration
+
+Data visualization and trend analysis
+
+Interactive Python scripting
+
+🧩 Possible Extensions
+
+🌐 Add a web interface using Flask or Streamlit.
+
+🔐 Implement encrypted local storage for user privacy.
+
+🌍 Add multilingual support (Arabic, English, French).
+
+🧭 Predict mood trends based on previous entries.
+
+📅 Integrate reminders or daily check-in notifications.
+
+
+
+
+
+👨‍💻 Author
+
 Abdessamad Bourkibate
+AI & Cybersecurity Researcher
+📍 Morocco
+
+<img width="100" height="100" alt="e28a1ed7-d7f9-4ed3-825c-156b491d62f8" src="https://github.com/user-attachments/assets/cf51416e-8605-4e89-86e9-32d7882fb176" />
+
+
+
+
+
+
+🏁 Submission Information
+
+Bootcamp: AI Bootcamp – Shaqra University × Google Developer Student Club
+
+Submission Link: Final Project Form
+
+Deadline: November 6, 2025
+
+File Limit: ≤ 10 MB
+
+“Your emotions are meaningful data — let AI help you understand them.” 💫
+
+
+
+
+
+<img width="534" height="510" alt="ai" src="https://github.com/user-attachments/assets/e930f8fe-a2db-49d2-b1de-323d8c46d93a" />
+
+
+
+
+🪪 License
+
+This project is released under the MIT License.
