@@ -1,7 +1,8 @@
 # 🎯 AI Mood Companion
 
 **Final Project – Shaqra University AI Bootcamp**  
-**By:** Abdessamad Bourkibate  
+**By:** Abdessamad Bourkibate
+Razan AbdulMohsen
 **Organized by:** Shaqra University & Google Developer Student Club (GDSC)
 
 ---
