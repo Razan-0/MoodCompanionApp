@@ -127,19 +127,6 @@ AI & Cybersecurity Researcher
 
 
 
-
-
-
-🏁 Submission Information
-
-Bootcamp: AI Bootcamp – Shaqra University × Google Developer Student Club
-
-Submission Link: Final Project Form
-
-Deadline: November 6, 2025
-
-File Limit: ≤ 10 MB
-
 “Your emotions are meaningful data — let AI help you understand them.” 💫
 
 
